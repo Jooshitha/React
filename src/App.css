@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button{
+  background-color: rgb(94, 204, 94);
+  margin-right: 10px;
+}
+
+button:hover{
+  background-color: rgb(94, 204, 94, 0.8);
+}
+
+button:active{
+  background-color: rgb(94, 204, 94, 0.6);
+}
+
