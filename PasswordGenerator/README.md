@@ -18,22 +18,22 @@ PasswordGenerator/ ├── public/ │ └── index.html ├── src/ │
 ## React Concepts Used
 This project demonstrates the following React concepts:
 
-State Management (useState):
+- **State Management (useState):**
 Used to manage the state of the password, length, and toggle options (numbers and special characters).
 
-Side Effects (useEffect):
+- **Side Effects (useEffect):**
 Automatically generates a new password whenever the length or toggle options are updated.
 
-Memoization (useCallback):
+- **Memoization (useCallback):**
 Used to memoize the<vscode_annotation details='%5B%7B%22title%22%3A%22hardcoded-credentials%22%2C%22description%22%3A%22Embedding%20credentials%20in%20source%20code%20risks%20unauthorized%20access%22%7D%5D'> </vscode_annotation>PasswordGenerator function and the copyPasswordToClipboard function to optimize performance and avoid unnecessary re-renders.
 
-Refs (useRef):
+- **Refs (useRef):**
 Used to reference the password input field for copying the password to the clipboard.
-Event Handling:
 
+- **Event Handling:**
 Handles user interactions such as clicking buttons, toggling checkboxes, and adjusting the range slider.
-Conditional Rendering:
 
+- **Conditional Rendering:**
 Dynamically updates the password based on user-selected options.
 
 ### Prerequisites
