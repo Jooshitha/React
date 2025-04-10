@@ -49,17 +49,18 @@ Dynamically updates the password based on user-selected options.
    cd PasswordGenerator
 
 ### Usage
-Adjust Password Length: Use the range slider to set the desired password length (between 6 and 20 characters).
 
-Toggle Options: Check the "Numbers" checkbox to include numbers in the password.
+- **Adjust Password Length:** Use the range slider to set the desired password length (between 6 and 20 characters).
+
+- **Toggle Options:** Check the "Numbers" checkbox to include numbers in the password.
 Check the "Character" checkbox to include special characters in the password.
 
-Generate Password: The password is generated automatically when you adjust the options or length.
+- **Generate Password:** The password is generated automatically when you adjust the options or length.
 
-Copy Password: Click the "Copy" button to copy the generated password to the clipboard.
+- **Copy Password:** Click the "Copy" button to copy the generated password to the clipboard.
 
 
 ### Technologies Used
-React: A JavaScript library for building user interfaces.
-Tailwind CSS: A utility-first CSS framework for styling.
-Vite: A fast build tool and development server.
+- **React:** A JavaScript library for building user interfaces.
+- **Tailwind CSS:** A utility-first CSS framework for styling.
+- **Vite:** A fast build tool and development server.
