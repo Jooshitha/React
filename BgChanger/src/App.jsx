@@ -4,11 +4,15 @@ import './App.css'
 function App() {
   const [color, setColor] = useState("olive")
 
+  const Red = () => {
+    setColor("red")
+  }
+
   return (
     <div className='w-full h-screen duration-200'style={{ backgroundColor: color }}>
       <div className='fixed flex justify-center flex-wrap bottom-12 inset-x-0 px-2'>
         <div className='flex flex-wrap gap-3 justify-center shadow-lg bg-amber-50 rounded-3xl px-3 py-3'>
-          <button onClick={()=>setColor("red")} className='outline-none px-4 py-1 rounded-full text-white shodow-lg cursor-pointer' style={{backgroundColor:"red"}}>
+          <button onClick={Red} className='outline-none px-4 py-1 rounded-full text-white shodow-lg cursor-pointer' style={{backgroundColor:"red"}}>
             Red
           </button>
           <button onClick={()=>setColor("green")} className='outline-none px-4 py-1 rounded-full text-white shodow-lg cursor-pointer' style={{backgroundColor:"green"}}>
